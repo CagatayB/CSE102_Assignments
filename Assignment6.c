@@ -62,7 +62,7 @@ void STDEV(int number[1000], int n) {
 		standardDeviation += pow(number[i] - mean, 2.0);
 	}
 	stddev = (double)sqrt(standardDeviation / (n));
-	printf("Standart sapma = %f\n", stddev);
+	printf("Standard Deviation = %f\n", stddev);
 	return 0;
 }
 
